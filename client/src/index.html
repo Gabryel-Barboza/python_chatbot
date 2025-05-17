@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatbot Python</title>
+    <!--Favicon por https://favicon.io/emoji-favicons/alien-monster-->
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chatbot Python</title>
-  <link rel="stylesheet" href="assets/styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
-
-<body>
-  <div class="chat-container">
-    <div class="chat-header">
-      <h2>Assistente Virtual <i class="fas fa-robot"></i></h2>
-      <span id="status-indicator" class="status-offline" title="Desconectado"></span>
-    </div>
-    <div class="chat-messages" id="chat-messages">
-      <!-- Mensagens aparecerão aqui -->
-      <div class="message bot-message">
-        <p>Olá! Como posso te ajudar hoje?</p>
+  <body>
+    <div class="chat-container">
+      <div class="chat-header">
+        <h2>Assistente Virtual <i class="fas fa-robot"></i></h2>
+        <span id="status-indicator" class="status status-offline" title="Desconectado"></span>
+      </div>
+      <div class="chat-messages" id="chat-messages">
+        <!-- Mensagens aparecerão aqui -->
+        <div class="message bot-message">
+          <p>Olá! Como posso te ajudar hoje?</p>
+        </div>
+      </div>
+      <div class="chat-input-area">
+        <input type="text" id="user-input" placeholder="Digite sua mensagem..." />
+        <button id="send-button"><i class="fas fa-paper-plane"></i> Enviar</button>
       </div>
     </div>
-    <div class="chat-input-area">
-      <input type="text" id="user-input" placeholder="Digite sua mensagem...">
-      <button id="send-button">
-        <i class="fas fa-paper-plane"></i> Enviar
-      </button>
-    </div>
-  </div>
 
-  <script src="main.js"></script>
-</body>
-
+    <script src="main.js"></script>
+  </body>
 </html>

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Fullstack application with Python to create a chatbot using LLMs",
   "main": "main.js",
+  "type": "commonjs",
   "scripts": {
     "serve": "http-server src/"
   },
