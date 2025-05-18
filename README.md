@@ -62,15 +62,51 @@ chatbot-project/
 |     |    ├── favicon.ico
 |     |    └── style.css
 |     |
+|     ├── config.js
 │     ├── index.html
-│     └── main.js
+│     └── main.js  # Conexão e interação com API
 │
 ├── server/
+|     ├── src/
+|     |    ├── controllers/
+|     |    |        ├── chat_controller.py  # controlador para o endpoint /api/v1/chat
+|     |    |        └── __init__.py
+|     |    |
+|     |    ├── schemas/
+|     |    |       ├── prompt_schema.py
+|     |    |       └── __init__.py
+|     |    |
+|     |    ├── services/
+|     |    |      ├── chat_services.py
+|     |    |      └── __init__.py
+|     |    |
+|     |    ├── main.py
+|     |    └── __init__.py
+|     |
+|     ├── build.sh  # Arquivo para deploy
+|     ├── pyproject.toml
+|     ├── README.md
+|     ├── requirements.txt  # Arquivo com dependências para pip install
+|     ├── tutorial.py  # Um tutorial com os métodos disponíveis no ADK do Google
+|     └── uv.lock  # Compatível com uv
 |
-└── README.md # Este arquivo
+|
+└── README.md
 ```
 
 ## Colocando o projeto para rodar
 
 O frontend é composto por arquivos estáticos HTML, CSS e JavaScript.
+Primeiro execute o backend da aplicação entrando na pasta server e rodando o servidor FastAPI:
 
+```bash
+cd server
+fastapi run src/main.py
+```
+
+Agora, com o servidor em execução abra outro terminal e execute o servidor HTTP disponibilizado por `http-server` no cliente, através do script "serve":
+```bash
+cd ../client
+npm run serve
+```
+Caso ocorra problemas de conexão, é possível que as portas (8000, 8080) estejam ocupadas por outros serviços, ainda pode ser necessário alterar o CORS na aplicação FastAPI.
