@@ -6,7 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // URL do seu backend Python (Flask, FastAPI, etc.)
   // Certifique-se de que seu backend tem CORS habilitado para este frontend
-  const CHATBOT_API_URL = 'http://localhost:8000/chat'; // Exemplo para Flask/FastAPI
+  const API_BASE_URL = window.APP_CONFIG.API_BASE_URL;
+  const CHATBOT_API_URL = `${API_BASE_URL}/chat`;
 
   // Função para adicionar mensagem na UI
   function addMessage(text, sender, isError = false) {

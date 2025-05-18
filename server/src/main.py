@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from .controllers import chat_controller
 from .settings import settings
 
-app = FastAPI()
+app = FastAPI(root_path='/api/v1')
 
 # Incluir routers
 app.include_router(chat_controller.router)
