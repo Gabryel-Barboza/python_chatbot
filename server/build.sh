@@ -1,6 +1,6 @@
 #!/usr/bin/env/ bash
 set -e
 
-uv sync
+pip install -r requirements.txt
 
 fastapi run src/main.py
