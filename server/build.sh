@@ -2,5 +2,3 @@
 set -e
 
 pip install -r requirements.txt
-
-fastapi run src/main.py
