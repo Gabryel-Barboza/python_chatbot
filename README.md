@@ -1,9 +1,13 @@
 # Projeto Chatbot Python
 
 📖 [Visão Geral](https://github.com/Gabryel-Barboza/python_chatbot#visão-geral)
+
 ✔️ [Funcionalidades](https://github.com/Gabryel-Barboza/python_chatbot#funcionalidades)
+
 ⚡ [Tecnologias Utilizadas](https://github.com/Gabryel-Barboza/python_chatbot#tecnologias-utilizadas)
+
 📜 [Estrutura do Projeto](https://github.com/Gabryel-Barboza/python_chatbot#estrutura-do-projeto)
+
 ⚙️ [Colocando o Projeto para Rodar](https://github.com/Gabryel-Barboza/python_chatbot#colocando-o-projeto-para-rodar)
 
 ## Visão Geral
