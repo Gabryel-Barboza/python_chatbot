@@ -1,14 +1,14 @@
 # Projeto Chatbot Python
 
-📖 [Visão Geral](https://github.com/Gabryel-Barboza/python_chatbot#visão-geral)
+📖 [Visão Geral](https://github.com/Gabryel-Barboza/python_chatbot/tree/main?tab=readme-ov-file#visão-geral)
 
-✔️ [Funcionalidades](https://github.com/Gabryel-Barboza/python_chatbot#funcionalidades)
+✔️ [Funcionalidades](https://github.com/Gabryel-Barboza/python_chatbot/tree/main?tab=readme-ov-file#funcionalidades)
 
-⚡ [Tecnologias Utilizadas](https://github.com/Gabryel-Barboza/python_chatbot#tecnologias-utilizadas)
+⚡ [Tecnologias Utilizadas](https://github.com/Gabryel-Barboza/python_chatbot/tree/main?tab=readme-ov-file#tecnologias-utilizadas)
 
-📜 [Estrutura do Projeto](https://github.com/Gabryel-Barboza/python_chatbot#estrutura-do-projeto)
+📜 [Estrutura do Projeto](https://github.com/Gabryel-Barboza/python_chatbot/tree/main?tab=readme-ov-file#estrutura-do-projeto)
 
-⚙️ [Colocando o Projeto para Rodar](https://github.com/Gabryel-Barboza/python_chatbot#colocando-o-projeto-para-rodar)
+⚙️ [Colocando o Projeto para Rodar](https://github.com/Gabryel-Barboza/python_chatbot/tree/main?tab=readme-ov-file#colocando-o-projeto-para-rodar)
 
 ## Visão Geral
 
