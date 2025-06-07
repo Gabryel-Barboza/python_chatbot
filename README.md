@@ -1,5 +1,11 @@
 # Projeto Chatbot Python
 
+📖 [Visão Geral](https://github.com/Gabryel-Barboza/python_chatbot#visão-geral)
+✔️ [Funcionalidades](https://github.com/Gabryel-Barboza/python_chatbot#funcionalidades)
+⚡ [Tecnologias Utilizadas](https://github.com/Gabryel-Barboza/python_chatbot#tecnologias-utilizadas)
+📜 [Estrutura do Projeto](https://github.com/Gabryel-Barboza/python_chatbot#estrutura-do-projeto)
+⚙️ [Colocando o Projeto para Rodar](https://github.com/Gabryel-Barboza/python_chatbot#colocando-o-projeto-para-rodar)
+
 ## Visão Geral
 
 Este projeto consiste em um chatbot interativo com um backend desenvolvido em Python usando FastAPI (seguindo uma arquitetura MVC) e um frontend elegante construído com HTML, CSS e JavaScript puros (fornecido pelo Gemini 2.0 e refinado para integração ao backend). 
